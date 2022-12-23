@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9B2194F-1919-4576-A55C-C82EBAAC0753}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmpacheApi", "AmpacheApi\AmpacheApi.csproj", "{496E505E-92E4-4211-B2C1-9E70A33C0A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmpacheApi.Tests", "AmpacheApi.Tests\AmpacheApi.Tests.csproj", "{1145919F-83CA-4B0D-8D02-297FFF11858B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{496E505E-92E4-4211-B2C1-9E70A33C0A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496E505E-92E4-4211-B2C1-9E70A33C0A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496E505E-92E4-4211-B2C1-9E70A33C0A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496E505E-92E4-4211-B2C1-9E70A33C0A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1145919F-83CA-4B0D-8D02-297FFF11858B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1145919F-83CA-4B0D-8D02-297FFF11858B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1145919F-83CA-4B0D-8D02-297FFF11858B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1145919F-83CA-4B0D-8D02-297FFF11858B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C69793C-641A-41C0-9FE0-20229DEB9735}
+	EndGlobalSection
+EndGlobal
